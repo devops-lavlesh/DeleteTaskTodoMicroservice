@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-delete-tasks-api
       IMAGE_TAG: v2
-      ACR_NAME: lavtodoappacr2025
-      ACR_LOGIN_SERVER: lavtodoappacr2025.azurecr.io
+      ACR_NAME: lucktodoappacr2025
+      ACR_LOGIN_SERVER: lucktodoappacr2025.azurecr.io
 
     steps:
       - name: Checkout code
